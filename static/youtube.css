@@ -1,0 +1,56 @@
+html body{
+    
+    font-family: sans-serif;
+}
+
+h1 {
+    color: black;
+    font-size: 3rem;
+}
+
+.top_sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.lang {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+}
+
+.img{
+    border: 1px solid #007bff;
+    
+    height: auto;
+}
+
+.custom-width{
+    width: 300px;
+    height: auto;
+}
+
+
+
+.form-opt {
+    border: 2px solid #007bff; 
+    padding: 10px;
+    margin: 5px;
+    width: 200px; 
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px; 
+    background-color: #f8f9fa; 
+    transition: background-color 0.3s, transform 0.2s;
+    color: black;
+}
+
+.form-opt:hover{
+    background-color: aqua;
+}
